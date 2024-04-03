@@ -1,0 +1,14 @@
+{
+    "projects": [
+      {
+        "title": "Agro-ML",
+        "link": "https://github.com/ItsSitanshu/agro-ml",
+        "description": "Agriculture in resource-constrained regions faces significant challenges due to the lack of affordable and accessible diagnostic tools. The project, Agro-ML, aims to address these issues by providing Machine Learning (ML) and Artificial Intelligence (AI) services tailored for small-scale farmers in impoverished areas."
+      },
+      {
+        "title": "Food Buddy",
+        "link": "https://github.com/ItsSitanshu/nhsp-hackc",
+        "description": "It is difficult to maintain a balanced diet. So, in order to battle against nutritional deficiency diseases, we have created a web app. What it does is, it generates personalised diet taking into account what the user has in their pantry and the user's personal conditions and characteristics."
+      }
+    ]
+}  

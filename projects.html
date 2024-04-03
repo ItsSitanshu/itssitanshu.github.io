@@ -1,38 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects</title>
-  <link rel="stylesheet" href="static/css/project.css">
-  <link rel="stylesheet" href="static/css/utils.css">
+  <link rel="stylesheet" href="static/css/projects.css">
 </head>
 <body>
-  <h1 class="filler">&#8624; home page</h1>
-  <div class="project-section">
-    <div class="project-info">
-      <h1><a href="https://github.com/ItsSitanshu/agro-ml">Agro-ML</a></h1>
-      <p>
-        Agriculture in resource-constrained regions faces significant challenges due to the lack of affordable and accessible diagnostic tools.
-        The project, Agro-ML, aims to address these issues by providing Machine Learning (ML) and Artificial Intelligence (AI) services tailored for small-scale farmers in impoverished areas.
-      </p>
-    </div>
-    <div class="project-image">
-      <img src="https://via.placeholder.com/500" alt="agro-ml">
-    </div>
+  
+  <div class="navigation">
+    <button id="prevBtn">&#8249;</button>
+    <h1 class="filler">USE ARROWS TO LOOK THROUGH OTHER PROJECTS</h1>
+    <button id="nextBtn">&#8250;</button>
   </div>
-  <div class="project-section">
-    <div class="project-info">
-      <h1><a href="https://github.com/ItsSitanshu/nhsp-hackc">Food Buddy</a></h1>
-      <p>
-        It is difficult to maintain a balanced diet. So, in order to battle against nutritional deficiency diseases, we have created a web app.
-        What it does is, it generates personalised diet taking into account what the user has in their pantry and the user's personal conditions and charachteristics
-      </p>
-    </div>
-    <div class="project-image">
-      <img src="https://via.placeholder.com/500" alt="nsphk">
-    </div>
-  </div>
-  <h1 class="filler">MORE TO COME</h1>
+  <h1 id="not-found" class="filler">MORE, COMING SOON</h1>
+  <div id="projects-container" class="project-section"></div>
+  <script src="static/js/projects.js"></script>
 </body>
 </html>

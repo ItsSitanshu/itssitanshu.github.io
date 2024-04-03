@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.project-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.project-info {
+  width: calc(50% - 2px); /* Adjust width as needed */
+  height: 45vh; /* Adjust height as needed */
+  color: #fff;
+  background-color: #306844;
+  border-radius: 0;
+  overflow: auto; /* Enable scrolling if content exceeds the height */
+}
+
+.project-info h1 {
+  text-align: center;
+  font-size: 7.2rem;
+  margin-bottom: 15px;
+}
+
+.project-info h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-info p {
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.project-section:nth-child(even) .project-info {
+  background-color: #2C4C3B; /* Background color for even project sections */
+}
+
+/* Remove styles for .project-image */
+.project-image {
+  display: none; /* Hide the project image */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .project-info {
+    width: 100%; /* Adjust width for smaller screens */
+    margin-bottom: 10px; /* Add margin between projects on smaller screens */
+  }
+
+  .project-info h1 {
+    font-size: 5.6rem; /* Adjust font size for smaller screens */
+  }
+
+  .project-info p {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+.filler {
+  color: #fff;
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between; /* Adjust to position buttons at the ends */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.navigation button {
+  background-color: transparent; /* Set background color to transparent */
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Increase padding for larger buttons */
+  font-size: 1.8rem; /* Increase font size for larger buttons */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navigation button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+}
