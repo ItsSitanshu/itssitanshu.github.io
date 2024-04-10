@@ -1,0 +1,29 @@
+.cross-button {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.cross-button:before,
+.cross-button:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: red;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cross-button:before {
+    transform: rotate(45deg);
+}
+
+.cross-button:after {
+    transform: rotate(-45deg);
+}
