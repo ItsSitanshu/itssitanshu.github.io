@@ -19,12 +19,12 @@ body {
 }
 
 .project-info {
-  width: calc(50% - 2px); /* Adjust width as needed */
-  height: 45vh; /* Adjust height as needed */
+  width: calc(50% - 2px);
+  height: 45vh;
   color: #fff;
   background-color: #306844;
   border-radius: 0;
-  overflow: auto; /* Enable scrolling if content exceeds the height */
+  overflow: auto;
 }
 
 .project-info h1 {
@@ -46,27 +46,27 @@ body {
 }
 
 .project-section:nth-child(even) .project-info {
-  background-color: #2C4C3B; /* Background color for even project sections */
+  background-color: #2C4C3B; 
 }
 
-/* Remove styles for .project-image */
+
 .project-image {
-  display: none; /* Hide the project image */
+  display: none;
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 768px) {
   .project-info {
-    width: 100%; /* Adjust width for smaller screens */
-    margin-bottom: 10px; /* Add margin between projects on smaller screens */
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .project-info h1 {
-    font-size: 5.6rem; /* Adjust font size for smaller screens */
+    font-size: 5.6rem;
   }
 
   .project-info p {
-    font-size: 1em; /* Adjust font size for smaller screens */
+    font-size: 1em;
   }
 }
 
@@ -80,20 +80,20 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: space-between; /* Adjust to position buttons at the ends */
-  padding: 20px; /* Add padding for better spacing */
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .navigation button {
-  background-color: transparent; /* Set background color to transparent */
+  background-color: transparent;
   color: #fff;
   border: none;
-  padding: 15px 30px; /* Increase padding for larger buttons */
-  font-size: 1.8rem; /* Increase font size for larger buttons */
+  padding: 15px 30px;
+  font-size: 1.8rem;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .navigation button:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+  background-color: rgba(255, 255, 255, 0.2);
 }
